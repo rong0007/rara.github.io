@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TKBTB-SHOP-Home</title>
+  
+  <style>
+    * {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  padding: 10px;
+  margin: -10px;
+  height: 59px;
+  background-color: grey;
+}
+body {
+  background-color: #f2f7fb;
+}
+footer {
+  background-color: #b9cfc8;
+  padding: 10px;
+  margin: -10px;
+}
+.logo {
+  width: 50px;
+  padding: 10px 10px 10px 10px;
+}
+
+.HAC {
+  justify-content: right;
+  display: flex;
+  top: 0px;
+  position: absolute;
+  left: 65%;
+}
+.text {
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  height: auto;
+  border: 0px;
+  border-style: none;
+  border-color: grey;
+}
+.text:hover {
+  background-color: #bfdff8;
+}
+.back {
+  position: relative;
+
+  width: 100%;
+  height: 700px;
+  background-image: url("https://beaumontandco.ca/wp-content/uploads/2019/11/Canva-Clothes-Shop-Interior-5472x2736.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.welcome {
+  font-size: 60px;
+  color: rgb(246, 247, 247);
+  position: relative;
+  bottom: -300px;
+  right: -20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.front {
+  font-size: 30px;
+  color: rgb(254, 252, 252);
+  position: relative;
+  bottom: -10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+.scrollmenu {
+  background-color: grey;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu img {
+  background-color: grey;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 8px;
+  height: 300px;
+  width: 300px;
+}
+
+.scrollmenu img:hover {
+  background-color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+.footer {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  bottom: -250px;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 100%;
+  background: grey;
+  border-radius: 6px;
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-col .links li a:hover {
+  color: #fff;
+}
+
+.footer-col p {
+  margin: 20px 0;
+  color: black;
+  max-width: 300px;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+.footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.footer-col form button:hover {
+  background: #cecccc;
+}
+
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-col .icons i {
+  color: #afb6c7;
+}
+
+.footer-col .icons i:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  .footer-col form {
+    display: block;
+  }
+
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="img_HAC">
+      <div><img src="logo.png" class="logo"></div>
+      <div class="HAC">
+        <a href="index.html" class="text">Home</a>
+        
+        <a href="Womenpage.html" class="text">Women</a>
+        <a href="Menpage.html" class="text">Men</a>
+        <a href="Children.html" class="text">Children</a>
+        <a href="About.html" class="text">About Us</a>
+      </div>
+    </div>
+
+  </header>
+  <div class="back">
+    <div class="welcome">
+      <h1>WELCOME<br>&nbspTO TK Battambang</h1>
+      <div class="front">
+        <p>TKBTB sells a wide range of products to suit your needs, <br>such as men's and women's clothing, bags, men's
+          watches.</p>
+      </div>
+    </div>
+  </div>
+  <div class="scrollmenu">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.5VO9dP_IzA2kPpjPWj9bUgHaNK&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.dybWjFJn62t1DSost92hKAHaJd&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.ky2rOmzNWRi9HL5UUfvSDgHaKX&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.QTrQj8Px0eMUTgmxuUOPFwHaKu&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.adkhMpl3JbjngWnpSH9DggHaJc&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.BMTCeHxVHIyp7qGfvCVdjQHaK_&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.5pwVDaq8OT9JhnpYI-Yz5gHaLH&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.SmiCsXaT_BFzdOy_8w91VgHaLH&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.s9AwH4wtpJCFvRuK6zrlYQHaLH&pid=Api&P=0&h=220" alt="">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.88tzbHF2qqSxSSaOr-cXmwHaLH&pid=Api&P=0&h=220" alt="">
+  </div>
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul class="links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Compressions</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Collection</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="links">
+          <li><a href="#">Free Designs</a></li>
+          <li><a href="#">Latest Designs</a></li>
+          <li><a href="#">Themes</a></li>
+          <li><a href="#">Popular Designs</a></li>
+          <li><a href="#">Art Skills</a></li>
+          <li><a href="#">New Uploads</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="links">
+          <li><a href="#">Customer Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">GDPR</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Media Kit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>
+          Subscribe to our newsletter for a weekly dose
+          of news, updates, helpful tips, and
+          exclusive offers.
+        </p>
+        <form action="#">
+          <input type="text" placeholder="Your email" required>
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
